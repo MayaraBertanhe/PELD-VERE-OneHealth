@@ -1,0 +1,132 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=30;
+	taxlabels
+	AF009606_Orthohepacivirus_hominis
+	GU566734_Pegivirus_pteropi
+	KC145265_Pegivirus_equi
+	KC410872_Pegivirus_caballi
+	KC411777_Orthohepacivirus_glareoli
+	KC411784_Orthohepacivirus_myodae
+	KC411806_Orthohepacivirus_rhabdomysis
+	KC551800_Orthohepacivirus_colobi
+	KC796074_Orthohepacivirus_macronycteridis
+	KC796076_Pegivirus_scotophili
+	KC796077_Orthohepacivirus_vittatae
+	KC796078_Orthohepacivirus_otomopis
+	KC796080_Pegivirus_carolliae
+	KC796088_Pegivirus_sturnirae
+	KC815310_Orthohepacivirus_peromysci
+	KC815311_Pegivirus_neotomae
+	KJ950938_Orthohepacivirus_ratti
+	KJ950939_Orthohepacivirus_norvegici
+	KP325401_Orthohepacivirus_equi
+	KP641127_Orthohepacivirus_bovis
+	KT439329_Pegivirus_columbiaense
+	KU351669_Pegivirus_suis
+	NPPEG_NP_167_serum
+	SMHEP_102_liver
+	SMHEP_292_liver
+	SMHEP_297_liver
+	SMHEP_51_liver
+	U22303_Pegivirus_platyrrhini
+	U22304_Orthohepacivirus_platyrrhini
+	U44402_Pegivirus_hominis
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (AF009606_Orthohepacivirus_hominis:3.0E-6,(((((((GU566734_Pegivirus_pteropi:0.349399,KC796088_Pegivirus_sturnirae:0.285526)[&label="96.5/82"]:0.069452,(KU351669_Pegivirus_suis:0.483919,((U22303_Pegivirus_platyrrhini:0.188806,NPPEG_NP_167_serum:0.082887)[&label="100/100"]:0.186616,U44402_Pegivirus_hominis:0.291636)[&label="100/100"]:0.178887)[&label="5.2/45"]:0.034962)[&label="99.1/96"]:0.118564,(KC145265_Pegivirus_equi:0.337734,KC410872_Pegivirus_caballi:0.308287)[&label="98/100"]:0.107199)[&label="99.9/100"]:0.205808,(((KC796076_Pegivirus_scotophili:0.336803,KC796080_Pegivirus_carolliae:0.244503)[&label="94.1/96"]:0.109386,KC815311_Pegivirus_neotomae:0.270422)[&label="99.6/100"]:0.186195,KT439329_Pegivirus_columbiaense:0.800765)[&label="92.2/89"]:0.13731)[&label="100/100"]:0.522431,(KC411777_Orthohepacivirus_glareoli:0.664922,((((((KC411784_Orthohepacivirus_myodae:0.232012,KC815310_Orthohepacivirus_peromysci:0.240681)[&label="5.6/37"]:0.036724,((SMHEP_51_liver:0.007147,(SMHEP_102_liver:0.001448,SMHEP_297_liver:0.011164)[&label="77.8/69"]:0.005442)[&label="80.2/69"]:0.008611,SMHEP_292_liver:0.004897)[&label="100/100"]:0.284515)[&label="100/100"]:0.173822,KJ950938_Orthohepacivirus_ratti:0.309974)[&label="98.4/99"]:0.125579,KJ950939_Orthohepacivirus_norvegici:0.556296)[&label="100/100"]:0.226652,(KC551800_Orthohepacivirus_colobi:0.598819,((KC796077_Orthohepacivirus_vittatae:0.367046,KP641127_Orthohepacivirus_bovis:0.616481)[&label="89.3/94"]:0.094251,U22304_Orthohepacivirus_platyrrhini:0.611403)[&label="79.4/80"]:0.067118)[&label="90.7/77"]:0.095291)[&label="77.5/73"]:0.072637,KC411806_Orthohepacivirus_rhabdomysis:0.793314)[&label="98.9/100"]:0.189625)[&label="79.9/86"]:0.118827)[&label="99.4/100"]:0.202212,(KC796074_Orthohepacivirus_macronycteridis:0.314299,KC796078_Orthohepacivirus_otomopis:0.345122)[&label="99.1/100"]:0.123518)[&label="100/100"]:0.21777,KP325401_Orthohepacivirus_equi:0.325042)[&label="100/100"]:0.340121);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName=".AppleSystemUIFont";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName=".AppleSystemUIFont";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName=".AppleSystemUIFont";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

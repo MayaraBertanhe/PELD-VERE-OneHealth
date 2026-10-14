@@ -1,0 +1,255 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=153;
+	taxlabels
+	AB016162_Morbillivirus_hominis
+	AB040874_Orthorubulavirus_parotitidis
+	AB195968_Respirovirus_muris
+	AB543336_Orthorubulavirus_hominis
+	AB759118_Metaavulavirus_calidris
+	AF014953_Morbillivirus_canis
+	AF017149_Henipavirus_hendraense
+	AF052755_Orthorubulavirus_mammalis
+	AF079780_Tupaivirus_tupaiae
+	AF178654_Respirovirus_bovis
+	AF212302_Henipavirus_nipahense
+	AF298895_Pararubulavirus_tiomanense
+	AF457102_Respirovirus_laryngotracheitidis
+	AJ608288_Morbillivirus_ceti
+	AJ849636_Morbillivirus_caprinae
+	AY141760_Ferlavirus_reptilis
+	AY286409_Narmovirus_mossmanense
+	AY562991_Orthoavulavirus_javaense
+	AY900001_Jeilongvirus_queenslandense
+	BK005918_Orthorubulavirus_suis
+	BK061229_Paramorbillivirus_pueyrredonense
+	DQ100461_Jeilongvirus_beilongi
+	EF095490_Orthorubulavirus_mapueraense
+	EF569970_Metaavulavirus_hongkongense
+	EU156171_Aquaparamyxovirus_salmonis
+	EU326526_Respirovirus_pneumoniae
+	EU338414_Metaavulavirus_yucaipaense
+	EU403085_Paraavulavirus_neophemae
+	EU782025_Paraavulavirus_wisconsinense
+	EU877976_Paraavulavirus_hongkongense
+	EU910942_Orthoavulavirus_newyorkense
+	FJ215863_Metaavulavirus_delawarense
+	FJ231524_Metaavulavirus_tennessense
+	FJ362497_Narmovirus_narivaense
+	GU128080_Pararubulavirus_guangdongense
+	GU128081_Pararubulavirus_cantonense
+	GU128082_Pararubulavirus_hongkongi
+	GU206351_Metaavulavirus_kunitachiense
+	HM147142_Metaavulavirus_falklandense
+	HM159995_Metaavulavirus_bangorense
+	HQ660129_Henipavirus_ghanaense
+	JN689227_Jeilongvirus_tailamense
+	JQ001776_Henipavirus_cedarense
+	JQ411014_Morbillivirus_felis
+	JQ697837_Salemvirus_salemense
+	JQ886184_Metaavulavirus_galliense
+	JX051319_Pararubulavirus_achimotaense
+	JX051320_Pararubulavirus_accraense
+	JX112711_Pararubulavirus_menangleense
+	JX857409_Respirovirus_suis
+	KC333050_Orthoavulavirus_italiense
+	KC802221_Morbillivirus_phocae
+	KF278639_Parahenipavirus_mojiangense
+	KF774436_Pararubulavirus_sosugaense
+	KP271124_Pararubulavirus_teviotense
+	KT071755_Metaavulavirus_procarduelis
+	KT215610_Respirovirus_caprae
+	KX258200_Metaavulavirus_japanense
+	KX932454_Metaavulavirus_peixense
+	KY370098_Jeilongvirus_apodemi
+	KY452442_Orthoavulavirus_borisense
+	KY452443_Orthoavulavirus_kopaiticense
+	KY452444_Orthoavulavirus_oneillense
+	KY511044_Orthoavulavirus_upoense
+	LC041132_Orthoavulavirus_japanense
+	LS992584_Respirovirus_ratufae
+	MF033136_Metaavulavirus_kazakhstanense
+	MF594598_Orthoavulavirus_koreaense
+	MF943130_Narmovirus_myodesis
+	MG203877_Parajeilongvirus_comorosense
+	MG203878_Parajeilongvirus_madagascarense
+	MG230624_Parajeilongvirus_miniopteri
+	MG516455_Jeilongvirus_myodesis
+	MG573140_Jeilongvirus_lophuromysis
+	MG573141_Jeilongvirus_mabuense
+	MG600057_Scoliodonvirus_scoliodontis
+	MG600058_Synodonvirus_synodi
+	MG600059_Cynoglossusvirus_cynoglossi
+	MG600062_Hoplichthysvirus_hoplichthysis
+	MH900516_Aquaparamyxovirus_oregonense
+	MK677430_Metaavulavirus_taiwanense
+	MN561699_Parajeilongvirus_erinacei
+	MT062420_Pararubulavirus_eidoli
+	MT180123_Respirovirus_rupicaprae
+	MT511667_Morbillivirus_suis
+	MT823459_Jeilongvirus_pajuense
+	MT823463_Jeilongvirus_yeoncheonense
+	MW557651_Morbillivirus_myotis
+	MW579602_Jeilongvirus_rungweense
+	MZ312420_Parajeilongvirus_carolliae
+	MZ312421_Parajeilongvirus_hipposideri
+	MZ312422_Morbillivirus_phyllostomi
+	MZ312424_Parajeilongvirus_diaemi
+	MZ312426_Parajeilongvirus_brazilense
+	MZ328275_Parahenipavirus_wenzhouense
+	MZ328277_Jeilongvirus_oujiangense
+	MZ328278_Jeilongvirus_niviventris
+	MZ328279_Jeilongvirus_longquanense
+	MZ328280_Jeilongvirus_lishuiense
+	MZ328283_Jeilongvirus_taichungense
+	MZ328284_Paramorbillivirus_berylmysis
+	MZ328285_Paramorbillivirus_niviventris
+	MZ328287_Orthorubulavirus_rhinolophi
+	MZ328288_Parajeilongvirus_hubeiense
+	MZ328290_Parajeilongvirus_rhinolophi
+	MZ574407_Parahenipavirus_gamakense
+	MZ574409_Parahenipavirus_daeryongense
+	MZ753810_Parajeilongvirus_desmodi
+	MZ802804_Orthoavulavirus_taiwanense
+	MZ926778_Orthoavulavirus_arenariae
+	NP_117_liver
+	OK044775_Respirovirus_henanense
+	OK210078_Jeilongvirus_chaetodipodis
+	OK210080_Jeilongvirus_neotomae
+	OK623353_Parahenipavirus_meliandouense
+	OK623354_Parahenipavirus_winnikense
+	OK623355_Jeilongvirus_microti
+	OK623356_Paramorbillivirus_gierlense
+	OK623359_Narmovirus_ninovense
+	OK623360_Narmovirus_microti
+	OK623361_Jeilongvirus_nzerekorense
+	OK623362_Jeilongvirus_praomysis
+	OK623363_Jeilongvirus_gueckedouense
+	OK623364_Jeilongvirus_meliandouense
+	OK623365_Narmovirus_meliandouense
+	OL409126_Jeilongvirus_merionis
+	OL630969_Parajeilongvirus_hainanense
+	OM030314_Parahenipavirus_jingmenense
+	OM030316_Parahenipavirus_chodsigoae
+	OM030317_Parahenipavirus_crocidurae
+	OM030330_Jeilongvirus_eothenomysis
+	OM030331_Jeilongvirus_typhlomysis
+	OM030332_Jeilongvirus_wufengense
+	OM030333_Parajeilongvirus_myotis
+	OM030334_Parajeilongvirus_jingmenense
+	OM030335_Parajeilongvirus_wenzhouense
+	OM030336_Parajeilongvirus_zhejiangense
+	OM030338_Jeilongvirus_ratti
+	OM101125_Parahenipavirus_langyaense
+	ON613535_Henipavirus_angavokelyense
+	ON861830_Bovinavirus_bovis
+	OQ030201_Hippocavirus_hippocampi
+	OQ236117_Jeilongvirus_ochotonae
+	OQ236153_Jeilongvirus_sichuanense
+	OQ438284_Jeilongvirus_ninovense
+	OQ438285_Jeilongvirus_winnikense
+	OQ438286_Parahenipavirus_soricis
+	OQ438287_Jeilongvirus_mastomysis
+	OQ438288_Parajeilongvirus_pipistrelli
+	OQ438289_Parajeilongvirus_plecoti
+	X57559_Orthorubulavirus_laryngotracheitidis
+	X64275_Orthorubulavirus_simiae
+	X98291_Morbillivirus_pecoris
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (AB016162_Morbillivirus_hominis:0.111014,(((((((((((((((((((AB040874_Orthorubulavirus_parotitidis:0.310195,(AF052755_Orthorubulavirus_mammalis:0.316779,(X57559_Orthorubulavirus_laryngotracheitidis:0.144164,X64275_Orthorubulavirus_simiae:0.124914)[&label="100/100"]:0.200876)[&label="100/100"]:0.159659)[&label="47.4/94"]:0.055324,(BK005918_Orthorubulavirus_suis:0.353367,EF095490_Orthorubulavirus_mapueraense:0.315703)[&label="100/100"]:0.182106)[&label="46.4/83"]:0.071474,(AB543336_Orthorubulavirus_hominis:0.199741,MZ328287_Orthorubulavirus_rhinolophi:0.189476)[&label="100/100"]:0.403553)[&label="100/100"]:0.164217,(((AF298895_Pararubulavirus_tiomanense:0.108926,KP271124_Pararubulavirus_teviotense:0.105783)[&label="100/100"]:0.185948,JX112711_Pararubulavirus_menangleense:0.249369)[&label="100/100"]:0.234816,((GU128080_Pararubulavirus_guangdongense:0.416119,((GU128081_Pararubulavirus_cantonense:0.194457,JX051319_Pararubulavirus_achimotaense:0.215058)[&label="99.9/100"]:0.092927,(GU128082_Pararubulavirus_hongkongi:0.18572,KF774436_Pararubulavirus_sosugaense:0.186272)[&label="100/100"]:0.2358)[&label="100/100"]:0.081696)[&label="20.2/93"]:0.02567,(JX051320_Pararubulavirus_accraense:0.229975,MT062420_Pararubulavirus_eidoli:0.234657)[&label="100/100"]:0.108632)[&label="96.1/97"]:0.075349)[&label="100/100"]:0.170212)[&label="100/100"]:0.448959,((((((AB759118_Metaavulavirus_calidris:0.078549,EF569970_Metaavulavirus_hongkongense:0.0701)[&label="100/100"]:0.486196,(GU206351_Metaavulavirus_kunitachiense:0.528926,KX258200_Metaavulavirus_japanense:0.599126)[&label="65.8/96"]:0.112562)[&label="100/100"]:0.275656,(((((EU338414_Metaavulavirus_yucaipaense:0.098604,(HM159995_Metaavulavirus_bangorense:0.215207,KT071755_Metaavulavirus_procarduelis:0.039678)[&label="100/100"]:0.100031)[&label="100/100"]:0.256636,(FJ215863_Metaavulavirus_delawarense:0.382842,MF033136_Metaavulavirus_kazakhstanense:0.339324)[&label="95.1/55"]:0.058307)[&label="53.6/54"]:0.044494,HM147142_Metaavulavirus_falklandense:0.324324)[&label="82.8/71"]:0.075875,KX932454_Metaavulavirus_peixense:0.346013)[&label="100/100"]:0.326063,JQ886184_Metaavulavirus_galliense:0.535269)[&label="100/100"]:0.13561)[&label="69.3/88"]:0.094989,(FJ231524_Metaavulavirus_tennessense:0.32681,MK677430_Metaavulavirus_taiwanense:0.33629)[&label="100/100"]:0.384016)[&label="100/100"]:0.204504,(((((AY562991_Orthoavulavirus_javaense:0.139213,KY511044_Orthoavulavirus_upoense:0.156435)[&label="80/99"]:0.043761,MZ926778_Orthoavulavirus_arenariae:0.14814)[&label="100/100"]:0.161771,(EU910942_Orthoavulavirus_newyorkense:0.15477,MF594598_Orthoavulavirus_koreaense:0.206307)[&label="100/100"]:0.241214)[&label="100/100"]:0.177056,((KC333050_Orthoavulavirus_italiense:0.172445,MZ802804_Orthoavulavirus_taiwanense:0.172988)[&label="100/100"]:0.130619,LC041132_Orthoavulavirus_japanense:0.254414)[&label="100/100"]:0.227374)[&label="100/100"]:0.152209,((KY452442_Orthoavulavirus_borisense:0.160199,KY452443_Orthoavulavirus_kopaiticense:0.157105)[&label="100/100"]:0.121865,KY452444_Orthoavulavirus_oneillense:0.255476)[&label="100/100"]:0.235497)[&label="100/100"]:0.523211)[&label="88.1/97"]:0.13942,((EU403085_Paraavulavirus_neophemae:0.092076,EU782025_Paraavulavirus_wisconsinense:0.095892)[&label="100/100"]:0.776409,EU877976_Paraavulavirus_hongkongense:0.936495)[&label="100/100"]:0.607612)[&label="100/100"]:0.276265)[&label="100/100"]:0.928705,(MG600057_Scoliodonvirus_scoliodontis:1.831137,(MG600059_Cynoglossusvirus_cynoglossi:1.768686,MG600062_Hoplichthysvirus_hoplichthysis:2.329393)[&label="99.8/100"]:0.568519)[&label="98.2/99"]:0.272845)[&label="100/100"]:0.352724,MG600058_Synodonvirus_synodi:1.396418)[&label="99.3/100"]:0.206492,OQ030201_Hippocavirus_hippocampi:1.242708)[&label="91.2/99"]:0.128074,((((((AB195968_Respirovirus_muris:0.047148,LS992584_Respirovirus_ratufae:0.089995)[&label="97/100"]:0.031745,AF457102_Respirovirus_laryngotracheitidis:0.074267)[&label="100/100"]:0.101604,(JX857409_Respirovirus_suis:0.004502,OK044775_Respirovirus_henanense:0.163966)[&label="100/100"]:0.133168)[&label="100/100"]:0.221079,((AF178654_Respirovirus_bovis:0.023411,EU326526_Respirovirus_pneumoniae:0.082368)[&label="96.3/100"]:0.029709,(KT215610_Respirovirus_caprae:0.056425,MT180123_Respirovirus_rupicaprae:0.044261)[&label="98.8/100"]:0.03119)[&label="100/100"]:0.338173)[&label="100/100"]:0.329217,(EU156171_Aquaparamyxovirus_salmonis:0.191484,MH900516_Aquaparamyxovirus_oregonense:0.142396)[&label="100/100"]:0.377197)[&label="100/100"]:0.351361,AY141760_Ferlavirus_reptilis:0.819936)[&label="100/100"]:0.250787)[&label="100/100"]:0.350898,(((((AF017149_Henipavirus_hendraense:0.062709,AF212302_Henipavirus_nipahense:0.061274)[&label="100/100"]:0.310739,JQ001776_Henipavirus_cedarense:0.48695)[&label="18.4/73"]:0.085598,HQ660129_Henipavirus_ghanaense:0.601939)[&label="100/100"]:0.154923,(((((KF278639_Parahenipavirus_mojiangense:0.043005,OM101125_Parahenipavirus_langyaense:0.040526)[&label="100/100"]:0.074269,MZ328275_Parahenipavirus_wenzhouense:0.084964)[&label="100/100"]:0.079884,(MZ574409_Parahenipavirus_daeryongense:0.09532,(OK623353_Parahenipavirus_meliandouense:0.068694,OK623354_Parahenipavirus_winnikense:0.054075)[&label="99.3/100"]:0.032702)[&label="100/100"]:0.066991)[&label="100/100"]:0.149089,(OM030316_Parahenipavirus_chodsigoae:0.209706,OQ438286_Parahenipavirus_soricis:0.259669)[&label="46.8/89"]:0.051928)[&label="96.8/99"]:0.063667,(MZ574407_Parahenipavirus_gamakense:0.045898,(OM030314_Parahenipavirus_jingmenense:0.049982,OM030317_Parahenipavirus_crocidurae:0.049954)[&label="64.9/99"]:0.025207)[&label="100/100"]:0.305844)[&label="100/100"]:0.197483)[&label="50.1/90"]:0.05838,ON613535_Henipavirus_angavokelyense:0.527144)[&label="100/100"]:0.115464)[&label="99.2/92"]:0.09176,(((((AY900001_Jeilongvirus_queenslandense:0.18825,(((((((DQ100461_Jeilongvirus_beilongi:0.059647,MZ328277_Jeilongvirus_oujiangense:0.039927)[&label="76.4/100"]:0.016682,JN689227_Jeilongvirus_tailamense:0.051434)[&label="100/100"]:0.03935,MZ328283_Jeilongvirus_taichungense:0.108409)[&label="100/100"]:0.046165,((MZ328279_Jeilongvirus_longquanense:0.077747,MZ328280_Jeilongvirus_lishuiense:0.085549)[&label="97/99"]:0.024812,OQ438287_Jeilongvirus_mastomysis:0.082192)[&label="100/100"]:0.064341)[&label="50.6/84"]:0.024227,OL409126_Jeilongvirus_merionis:0.192935)[&label="94.5/93"]:0.023775,((KY370098_Jeilongvirus_apodemi:0.038147,OQ438284_Jeilongvirus_ninovense:0.035748)[&label="100/100"]:0.102635,(MT823459_Jeilongvirus_pajuense:0.08915,OM030332_Jeilongvirus_wufengense:0.096706)[&label="100/100"]:0.077847)[&label="51.1/77"]:0.015008)[&label="95.5/99"]:0.027894,((MG516455_Jeilongvirus_myodesis:0.140165,((OK623355_Jeilongvirus_microti:0.08635,OQ438285_Jeilongvirus_winnikense:0.065543)[&label="100/100"]:0.05116,OM030330_Jeilongvirus_eothenomysis:0.14512)[&label="87.4/99"]:0.032394)[&label="98.8/100"]:0.046356,OQ236153_Jeilongvirus_sichuanense:0.16622)[&label="100/100"]:0.059832)[&label="97.2/99"]:0.047658)[&label="100/100"]:0.086045,(MG573141_Jeilongvirus_mabuense:0.196345,(OK623361_Jeilongvirus_nzerekorense:0.125644,OK623362_Jeilongvirus_praomysis:0.141393)[&label="100/100"]:0.077866)[&label="99.7/100"]:0.054422)[&label="100/100"]:0.165725,((((MG573140_Jeilongvirus_lophuromysis:0.059787,OK623364_Jeilongvirus_meliandouense:0.088356)[&label="100/100"]:0.058965,MT823463_Jeilongvirus_yeoncheonense:0.11627)[&label="100/100"]:0.188418,OM030331_Jeilongvirus_typhlomysis:0.366334)[&label="90.4/99"]:0.051698,OK210078_Jeilongvirus_chaetodipodis:0.414987)[&label="81.3/97"]:0.038072)[&label="98.6/98"]:0.047893,((((((MG203877_Parajeilongvirus_comorosense:0.063322,MG203878_Parajeilongvirus_madagascarense:0.063432)[&label="100/100"]:0.066318,MG230624_Parajeilongvirus_miniopteri:0.148408)[&label="37.3/95"]:0.031008,MZ328288_Parajeilongvirus_hubeiense:0.112657)[&label="100/100"]:0.119831,(MZ312421_Parajeilongvirus_hipposideri:0.205567,OL630969_Parajeilongvirus_hainanense:0.225769)[&label="91.1/98"]:0.059853)[&label="88.7/99"]:0.047813,(OM030333_Parajeilongvirus_myotis:0.117121,OM030334_Parajeilongvirus_jingmenense:0.124419)[&label="100/100"]:0.140276)[&label="100/100"]:0.193236,((MN561699_Parajeilongvirus_erinacei:0.388537,((MZ328290_Parajeilongvirus_rhinolophi:0.241637,OQ438288_Parajeilongvirus_pipistrelli:0.212095)[&label="29.6/85"]:0.03939,((OM030335_Parajeilongvirus_wenzhouense:0.072228,OM030336_Parajeilongvirus_zhejiangense:0.079465)[&label="100/100"]:0.134118,OQ438289_Parajeilongvirus_plecoti:0.257561)[&label="96.4/100"]:0.058359)[&label="100/100"]:0.122039)[&label="100/100"]:0.100196,(MZ312420_Parajeilongvirus_carolliae:0.394591,(MZ312424_Parajeilongvirus_diaemi:0.400578,(MZ312426_Parajeilongvirus_brazilense:0.2074,MZ753810_Parajeilongvirus_desmodi:0.199375)[&label="100/100"]:0.172236)[&label="100/100"]:0.118956)[&label="100/100"]:0.114606)[&label="42/93"]:0.028274)[&label="91.5/96"]:0.033627)[&label="98.8/96"]:0.062991,(((MW579602_Jeilongvirus_rungweense:0.321481,((MZ328278_Jeilongvirus_niviventris:0.177235,OM030338_Jeilongvirus_ratti:0.145077)[&label="95/100"]:0.062085,OK623363_Jeilongvirus_gueckedouense:0.176953)[&label="100/100"]:0.120133)[&label="36.5/92"]:0.056393,OK210080_Jeilongvirus_neotomae:0.330096)[&label="95.5/100"]:0.057648,OQ236117_Jeilongvirus_ochotonae:0.480654)[&label="100/100"]:0.152998)[&label="100/100"]:0.207605)[&label="99.5/91"]:0.069084,ON861830_Bovinavirus_bovis:0.659068)[&label="38.7/46"]:0.039814,(AF079780_Tupaivirus_tupaiae:0.607026,(((AY286409_Narmovirus_mossmanense:0.171276,OK623365_Narmovirus_meliandouense:0.199281)[&label="83.2/98"]:0.047692,((MF943130_Narmovirus_myodesis:0.140207,OK623360_Narmovirus_microti:0.127256)[&label="22.7/99"]:0.020078,OK623359_Narmovirus_ninovense:0.086242)[&label="100/100"]:0.209234)[&label="76.9/96"]:0.055695,FJ362497_Narmovirus_narivaense:0.281687)[&label="100/100"]:0.301895)[&label="44.1/51"]:0.093822)[&label="99.9/92"]:0.124422,JQ697837_Salemvirus_salemense:0.829503)[&label="100/100"]:0.118672,((BK061229_Paramorbillivirus_pueyrredonense:0.361466,(MZ328284_Paramorbillivirus_berylmysis:0.177469,OK623356_Paramorbillivirus_gierlense:0.209653)[&label="100/100"]:0.121525)[&label="100/100"]:0.122845,MZ328285_Paramorbillivirus_niviventris:0.368375)[&label="100/100"]:0.121128)[&label="100/100"]:0.1457,JQ411014_Morbillivirus_felis:0.498836)[&label="100/100"]:0.241812,((AF014953_Morbillivirus_canis:0.046114,KC802221_Morbillivirus_phocae:0.042617)[&label="100/100"]:0.098167,((MT511667_Morbillivirus_suis:0.054619,(MZ312422_Morbillivirus_phyllostomi:0.001945,NP_117_liver:0.00329)[&label="100/100"]:0.068808)[&label="100/100"]:0.133825,MW557651_Morbillivirus_myotis:0.182673)[&label="18.2/74"]:0.026998)[&label="98.1/91"]:0.04363)[&label="99.7/100"]:0.055374,AJ608288_Morbillivirus_ceti:0.131888)[&label="100/100"]:0.053187,AJ849636_Morbillivirus_caprinae:0.167394)[&label="100/100"]:0.069538,X98291_Morbillivirus_pecoris:0.086653);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName=".AppleSystemUIFont";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=416;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName=".AppleSystemUIFont";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName=".AppleSystemUIFont";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

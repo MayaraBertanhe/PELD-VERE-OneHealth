@@ -1,0 +1,268 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=166;
+	taxlabels
+	AB040749_Kobuvirus_aichi
+	AB084788_Kobuvirus_bejaponia
+	AB937989_Crohivirus_alermus
+	AF326759_Enterovirus_hesimi
+	AF326766_Enterovirus_jesimi
+	AF327920_Parechovirus_beljungani
+	AF363453_Enterovirus_geswini
+	AF406813_Sapelovirus_anglia
+	AJ011380_Teschovirus_asilesi
+	AJ225173_Tremovirus_aetremori
+	AY064708_Sapelovirus_besimi
+	AY421760_Enterovirus_alphacoxsackie
+	AY426531_Enterovirus_deconjuncti
+	AY563023_Anativirus_aductai
+	AY593829_Aphthovirus_vesiculae
+	D00214_Enterovirus_eibovi
+	DQ092770_Enterovirus_fitauri
+	DQ226541_Avihepatovirus_ahepati
+	DQ272578_Aphthovirus_burrowsi
+	DQ473485_Enterovirus_betarhino
+	DQ641257_Senecavirus_valles
+	EF077279_Enterovirus_cerhino
+	EF165067_Cardiovirus_saffoldi
+	EU142040_Aquamavirus_apinni
+	EU236594_Aphthovirus_reedi
+	EU787450_Kobuvirus_cebes
+	FJ438902_Cosavirus_asiani
+	FJ438907_Cosavirus_bepakis
+	FJ438908_Cosavirus_depakis
+	FJ445111_Enterovirus_alpharhino
+	FJ555055_Cosavirus_eaustrali
+	GQ179640_Salivirus_aklasse
+	GU182406_Passerivirus_ahokothi
+	GU182408_Oscivirus_ahokorobi
+	HF677705_Parechovirus_cebokele
+	JF973686_Rosavirus_acaliforni
+	JF973687_Mosavirus_acanmo
+	JN572115_Felipivirus_acati
+	JN819202_Dicipivirus_acadici
+	JN867758_Cosavirus_fepakis
+	JQ316470_Pasivirus_agallia
+	JQ691613_Gallivirus_afowli
+	JQ814851_Mischivirus_acombewi
+	JQ864242_Cardiovirus_ranori
+	JQ941880_Hunnivirus_amagyari
+	JX134222_Limnipivirus_ablugi
+	KC614703_Avisivirus_aturki
+	KC663628_Megrivirus_aturhepa
+	KC843627_Potamipivirus_aconstanci
+	KC876003_Megrivirus_berockdo
+	KC935379_Kunsagivirus_agrepla
+	KF006989_Parechovirus_deferreti
+	KF183915_Limnipivirus_cefahemi
+	KF306267_Limnipivirus_becarpi
+	KF387721_Sakobuvirus_aportufeli
+	KF741227_Sicinivirus_ahiberni
+	KF961186_Megrivirus_chigalli
+	KF979333_Avisivirus_begallu
+	KF979334_Avisivirus_cechici
+	KJ000696_Aalivirus_apekidu
+	KJ415177_Rafivirus_atorti
+	KJ641685_Diresapivirus_arhiferi
+	KJ641686_Kobuvirus_femyomini
+	KJ641697_Diresapivirus_benyvelu
+	KJ641698_Shanbavirus_aminfuli
+	KM203656_Orivirus_aoroshaza
+	KM396707_Malagasivirus_alphalesa
+	KM396708_Malagasivirus_betalesa
+	KM589358_Bopivirus_abovi
+	KM873611_Torchivirus_atorpi
+	KP054273_Mischivirus_beminio
+	KP100644_Mischivirus_cica
+	KP230449_Harkavirus_alfoldi
+	KP233897_Rabovirus_aneyoci
+	KP236128_Aphthovirus_bogeli
+	KP345887_Enterovirus_idromi
+	KP770140_Ampivirus_apilisi
+	KR703607_Hepatovirus_bephopi
+	KT325852_Kobuvirus_ecuni
+	KT452637_Hepatovirus_devoli
+	KT452658_Hepatovirus_ishrewi
+	KT452685_Hepatovirus_fejalco
+	KT452691_Hepatovirus_hedgi
+	KT452730_Hepatovirus_gafrisheta
+	KT452735_Hepatovirus_erubebrufu
+	KT452742_Hepatovirus_cemanavi
+	KT880670_Anativirus_biphaco
+	KU587555_Enterovirus_lesimi
+	KU977108_Poecivirus_ablacachi
+	KX156153_Rohelivirus_arodenti
+	KX156158_Enterovirus_krodeni
+	KX463670_Livupivirus_asmonewi
+	KX644936_Kunsagivirus_bacameba
+	KX644937_Crohivirus_beidoli
+	KX783423_Rosavirus_brorati
+	KX783424_Rosavirus_chewhibe
+	KY312540_Crahelivirus_agapo
+	KY312541_Gruhelivirus_agrusa
+	KY312544_Grusopivirus_arecrocra
+	KY312545_Grusopivirus_bechini
+	KY432472_Tremovirus_beturtli
+	KY432924_Mupivirus_arati
+	KY432926_Rabovirus_begaschmo
+	KY432927_Parabovirus_bechstihams
+	KY432928_Cardiovirus_rudhira
+	KY432930_Cardiovirus_dhusarah
+	KY432933_Parabovirus_chiwhibe
+	KY488458_Megrivirus_deharri
+	KY512802_Mischivirus_defoxi
+	KY645497_Parechovirus_efalco
+	KY670597_Kunsagivirus_cetanba
+	KY855432_Rabovirus_cemarmo
+	KY855435_Mosavirus_betibeti
+	LC006971_Boosepivirus_atauri
+	LC036579_Boosepivirus_bebovi
+	LC055961_Kobuvirus_dekago
+	LC113907_Tottorivirus_asuscro
+	LR216006_Boosepivirus_ceovis
+	M14707_Hepatovirus_ahepa
+	M81861_Cardiovirus_rueckerti
+	M88483_Enterovirus_betacoxsackie
+	MF175072_Rabovirus_dehomo
+	MF188967_Dicipivirus_berinro
+	MF327529_Ailurivirus_agiapa
+	MF352410_Mischivirus_ehoushre
+	MF352412_Parabovirus_anorrati
+	MF358731_Ludopivirus_agrewhifrogo
+	MF405436_Megrivirus_epengu
+	MF977321_Passerivirus_bewaxi
+	MG600068_Fipivirus_acarpi
+	MG600069_Fipivirus_besharpi
+	MG600070_Fipivirus_ebanjoi
+	MG600074_Fipivirus_fiperchi
+	MG600075_Fipivirus_demackeri
+	MG600076_Symapivirus_atriliza
+	MG600081_Myrropivirus_achiwas
+	MG600083_Tropivirus_betero
+	MG600084_Parechovirus_feterobo
+	MG600089_Hemipivirus_aholtge
+	MG600090_Rafivirus_begecki
+	MG600091_Tropivirus_awaski
+	MG600093_Rajidapivirus_ashaska
+	MG600094_Limnipivirus_disploca
+	MG600095_Fipivirus_crosso
+	MG600103_Caecilivirus_banna
+	MG600106_Pemapivirus_achisotu
+	MG600108_Pemapivirus_brohepotu
+	MG875515_Teschovirus_bishikawa
+	MG967619_Rafivirus_crhima
+	MH255796_Pygoscepivirus_apingu
+	MH368041_Danipivirus_abrafi
+	MK189163_Potamipivirus_balaski
+	MK443503_Grusopivirus_celori
+	MK882499_Marsupivirus_aburpengari
+	NP_166_swabrectal
+	NP_167_swabrectal
+	NP_168_swabrectal
+	NP_92_swabrectal
+	NP_93_swabrectal
+	NP_94_swabrectal
+	NP_95_swabrectal
+	OR416239_Senecavirus_cetus
+	S45208_Parechovirus_ahumpari
+	V01149_Enterovirus_coxsackiepol
+	X56019_Cardiovirus_theileri
+	X96871_Erbovirus_aequirhi
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (AB040749_Kobuvirus_aichi:1.0E-6,(((AB084788_Kobuvirus_bejaponia:0.107614,EU787450_Kobuvirus_cebes:0.114643)[&label="99.3/100"]:0.10449,(((((((((((((((((((((((AB937989_Crohivirus_alermus:0.488739,JQ316470_Pasivirus_agallia:1.157411)[&label="58.4/90"]:0.112002,KX644937_Crohivirus_beidoli:0.402599)[&label="94.3/99"]:0.155948,KJ641698_Shanbavirus_aminfuli:0.974923)[&label="98.9/97"]:0.242126,(((AF327920_Parechovirus_beljungani:0.196226,HF677705_Parechovirus_cebokele:0.270142)[&label="21.2/83"]:0.075466,KY645497_Parechovirus_efalco:0.326764)[&label="99.4/100"]:0.191819,S45208_Parechovirus_ahumpari:0.655727)[&label="97.5/99"]:0.154328)[&label="89.6/51"]:0.064119,(((JX134222_Limnipivirus_ablugi:0.471306,(KF183915_Limnipivirus_cefahemi:0.278663,KF306267_Limnipivirus_becarpi:0.310762)[&label="99.9/100"]:0.252992)[&label="95/100"]:0.156755,MG600094_Limnipivirus_disploca:0.49866)[&label="100/100"]:0.345065,(KC843627_Potamipivirus_aconstanci:0.310512,MK189163_Potamipivirus_balaski:0.434967)[&label="100/100"]:0.407609)[&label="90.3/82"]:0.071956)[&label="91.8/54"]:0.064587,(KF006989_Parechovirus_deferreti:0.605504,MG600084_Parechovirus_feterobo:0.728041)[&label="90.2/95"]:0.114986)[&label="88.9/58"]:0.072007,((DQ226541_Avihepatovirus_ahepati:0.538632,((((KC614703_Avisivirus_aturki:0.432765,KF979334_Avisivirus_cechici:0.435883)[&label="13/92"]:0.096068,KF979333_Avisivirus_begallu:0.47479)[&label="100/100"]:0.308124,KJ000696_Aalivirus_apekidu:0.417641)[&label="98.3/100"]:0.158267,((KY312544_Grusopivirus_arecrocra:0.100029,MK443503_Grusopivirus_celori:0.082345)[&label="100/100"]:0.449566,KY312545_Grusopivirus_bechini:0.503205)[&label="95.5/100"]:0.123462)[&label="67.6/98"]:0.066715)[&label="97.4/100"]:0.19393,KM203656_Orivirus_aoroshaza:0.828139)[&label="98/100"]:0.225213)[&label="97.9/98"]:0.19304,(EU142040_Aquamavirus_apinni:0.892826,((KC935379_Kunsagivirus_agrepla:0.359178,KX644936_Kunsagivirus_bacameba:0.444273)[&label="99.7/100"]:0.262718,KY670597_Kunsagivirus_cetanba:0.483804)[&label="97.8/100"]:0.253126)[&label="98.6/100"]:0.282031)[&label="100/100"]:0.583611,((((((AJ225173_Tremovirus_aetremori:0.490846,KY432472_Tremovirus_beturtli:0.696268)[&label="97.5/100"]:0.212394,(((((KR703607_Hepatovirus_bephopi:0.305978,(((KT452637_Hepatovirus_devoli:0.15587,KT452685_Hepatovirus_fejalco:0.290705)[&label="96.6/100"]:0.107113,M14707_Hepatovirus_ahepa:0.282021)[&label="99.9/100"]:0.156902,KT452658_Hepatovirus_ishrewi:0.253353)[&label="72.6/100"]:0.055615)[&label="91.6/88"]:0.053268,(KT452691_Hepatovirus_hedgi:0.223804,KT452730_Hepatovirus_gafrisheta:0.233667)[&label="95.5/100"]:0.088879)[&label="84.4/87"]:0.089186,(KT452735_Hepatovirus_erubebrufu:0.383642,KT452742_Hepatovirus_cemanavi:0.245727)[&label="96/100"]:0.114419)[&label="98.9/100"]:0.225654,KY312540_Crahelivirus_agapo:1.017145)[&label="36.1/77"]:0.191911,KY312541_Gruhelivirus_agrusa:1.020887)[&label="53.2/97"]:0.114555)[&label="95.1/100"]:0.200083,MG600103_Caecilivirus_banna:0.753155)[&label="86.7/100"]:0.105593,KX156153_Rohelivirus_arodenti:1.271482)[&label="43.8/96"]:0.120684,((((MG600068_Fipivirus_acarpi:0.94476,MG600069_Fipivirus_besharpi:0.627303)[&label="94.3/65"]:0.186581,MG600075_Fipivirus_demackeri:0.510948)[&label="86.9/64"]:0.103729,(MG600070_Fipivirus_ebanjoi:0.683786,MG600074_Fipivirus_fiperchi:0.567714)[&label="96.5/100"]:0.202634)[&label="82.3/64"]:0.124777,MG600095_Fipivirus_crosso:0.82983)[&label="99.9/100"]:0.540384)[&label="98.4/99"]:0.225152,KP230449_Harkavirus_alfoldi:1.513465)[&label="12.2/71"]:0.043229)[&label="77.9/86"]:0.140396,KP770140_Ampivirus_apilisi:2.119008)[&label="90.2/97"]:0.149322,((((((((((AF326759_Enterovirus_hesimi:0.279134,KX156158_Enterovirus_krodeni:0.395668)[&label="64.4/97"]:0.062473,((((AF326766_Enterovirus_jesimi:0.108724,M88483_Enterovirus_betacoxsackie:0.11291)[&label="88.6/100"]:0.036881,(AY426531_Enterovirus_deconjuncti:0.22058,V01149_Enterovirus_coxsackiepol:0.143064)[&label="87.2/97"]:0.054291)[&label="79.8/87"]:0.047927,AY421760_Enterovirus_alphacoxsackie:0.360551)[&label="84.2/89"]:0.03038,(AF363453_Enterovirus_geswini:0.123948,(D00214_Enterovirus_eibovi:0.107798,(DQ092770_Enterovirus_fitauri:0.029813,KP345887_Enterovirus_idromi:0.054967)[&label="98.9/100"]:0.074834)[&label="99.6/100"]:0.113119)[&label="99.5/100"]:0.091618)[&label="89.1/89"]:0.049079)[&label="97.9/99"]:0.074189,(DQ473485_Enterovirus_betarhino:0.300942,(EF077279_Enterovirus_cerhino:0.338108,FJ445111_Enterovirus_alpharhino:0.334115)[&label="96.7/100"]:0.125159)[&label="22.9/71"]:0.05425)[&label="90.6/85"]:0.058473,KU587555_Enterovirus_lesimi:0.279761)[&label="100/100"]:0.13005,(KP233897_Rabovirus_aneyoci:0.22199,((KY432926_Rabovirus_begaschmo:0.195393,MF175072_Rabovirus_dehomo:0.142675)[&label="84.3/100"]:0.057369,KY855432_Rabovirus_cemarmo:0.20577)[&label="97/100"]:0.073224)[&label="100/100"]:0.192508)[&label="89.5/92"]:0.062736,(((JN572115_Felipivirus_acati:0.322994,KY432927_Parabovirus_bechstihams:0.154448)[&label="93/100"]:0.044888,MF352412_Parabovirus_anorrati:0.161773)[&label="95.4/100"]:0.058559,KY432933_Parabovirus_chiwhibe:0.242407)[&label="90.3/93"]:0.046827)[&label="29.7/64"]:0.028266,(LC006971_Boosepivirus_atauri:0.249991,(LC036579_Boosepivirus_bebovi:0.314532,LR216006_Boosepivirus_ceovis:0.341278)[&label="56.1/95"]:0.082267)[&label="99.5/100"]:0.109285)[&label="91.9/91"]:0.063336,(AF406813_Sapelovirus_anglia:0.310238,AY064708_Sapelovirus_besimi:0.201695)[&label="99.5/100"]:0.135206)[&label="89.5/89"]:0.047472,(AY563023_Anativirus_aductai:0.351208,(KJ641685_Diresapivirus_arhiferi:0.201644,KJ641697_Diresapivirus_benyvelu:0.134532)[&label="100/100"]:0.284943)[&label="18.2/64"]:0.044309)[&label="99.4/98"]:0.174449,KT880670_Anativirus_biphaco:0.577253)[&label="100/100"]:0.367709)[&label="98.2/100"]:0.198088,(((((AJ011380_Teschovirus_asilesi:0.108307,MG875515_Teschovirus_bishikawa:0.080744)[&label="100/100"]:0.638822,((JQ941880_Hunnivirus_amagyari:0.365294,(KM396707_Malagasivirus_alphalesa:0.153789,KM396708_Malagasivirus_betalesa:0.159448)[&label="99.9/100"]:0.269886)[&label="8.6/85"]:0.082114,LC113907_Tottorivirus_asuscro:0.572378)[&label="99.8/100"]:0.355916)[&label="99.2/100"]:0.284722,(KM589358_Bopivirus_abovi:0.724487,X96871_Erbovirus_aequirhi:0.620104)[&label="96.6/98"]:0.167286)[&label="93.3/97"]:0.122581,((((((AY593829_Aphthovirus_vesiculae:0.26139,KP236128_Aphthovirus_bogeli:0.428494)[&label="64.3/100"]:0.068465,EU236594_Aphthovirus_reedi:0.266873)[&label="100/100"]:0.293563,DQ272578_Aphthovirus_burrowsi:0.545262)[&label="99.4/100"]:0.18502,(((FJ438902_Cosavirus_asiani:0.17664,FJ438907_Cosavirus_bepakis:0.237762)[&label="14.8/86"]:0.031646,(FJ438908_Cosavirus_depakis:0.120114,FJ555055_Cosavirus_eaustrali:0.169391)[&label="100/100"]:0.1347)[&label="90.1/99"]:0.060889,JN867758_Cosavirus_fepakis:0.211715)[&label="100/100"]:0.410347)[&label="45.6/98"]:0.056896,((((DQ641257_Senecavirus_valles:0.299476,OR416239_Senecavirus_cetus:0.337644)[&label="99.4/100"]:0.137416,((((EF165067_Cardiovirus_saffoldi:0.153773,X56019_Cardiovirus_theileri:0.14151)[&label="99.5/100"]:0.103941,KY432928_Cardiovirus_rudhira:0.253059)[&label="92.2/100"]:0.072655,KY432930_Cardiovirus_dhusarah:0.204067)[&label="96.6/100"]:0.073235,(JQ864242_Cardiovirus_ranori:0.413022,M81861_Cardiovirus_rueckerti:0.216578)[&label="28.7/95"]:0.06684)[&label="99.6/100"]:0.149987)[&label="84/100"]:0.059895,KY432924_Mupivirus_arati:0.528484)[&label="76.5/66"]:0.05777,(((((JQ814851_Mischivirus_acombewi:0.06695,KP054273_Mischivirus_beminio:0.122622)[&label="99.7/100"]:0.136161,MF352410_Mischivirus_ehoushre:0.320826)[&label="29.2/80"]:0.057465,KY512802_Mischivirus_defoxi:0.331793)[&label="91.7/99"]:0.088884,KP100644_Mischivirus_cica:0.365301)[&label="99.1/100"]:0.131378,MF327529_Ailurivirus_agiapa:0.349225)[&label="95.6/100"]:0.119986)[&label="91.2/66"]:0.059505)[&label="99.8/100"]:0.160502,MK882499_Marsupivirus_aburpengari:0.554897)[&label="53.8/97"]:0.070507)[&label="97.4/99"]:0.154938,((JF973687_Mosavirus_acanmo:0.353641,KY855435_Mosavirus_betibeti:0.436317)[&label="99.4/100"]:0.300288,KM873611_Torchivirus_atorpi:0.608165)[&label="98.2/100"]:0.201669)[&label="100/100"]:0.245609)[&label="96.7/100"]:0.151854,MG600093_Rajidapivirus_ashaska:1.221566)[&label="35.9/66"]:0.096412,((((KC663628_Megrivirus_aturhepa:0.205542,MF405436_Megrivirus_epengu:0.145452)[&label="25.5/75"]:0.053206,KF961186_Megrivirus_chigalli:0.304384)[&label="69.1/75"]:0.098348,KC876003_Megrivirus_berockdo:0.226873)[&label="99.9/100"]:0.215291,(KU977108_Poecivirus_ablacachi:0.504817,KY488458_Megrivirus_deharri:0.36802)[&label="42.5/82"]:0.105081)[&label="100/100"]:0.356766)[&label="32.5/64"]:0.05267,(((((JF973686_Rosavirus_acaliforni:0.134677,(KX783423_Rosavirus_brorati:0.149271,KX783424_Rosavirus_chewhibe:0.197688)[&label="89.2/100"]:0.074788)[&label="99.9/100"]:0.17832,(JN819202_Dicipivirus_acadici:0.407191,MF188967_Dicipivirus_berinro:0.300665)[&label="100/100"]:0.254117)[&label="97.3/100"]:0.125967,MG600081_Myrropivirus_achiwas:0.629923)[&label="99/100"]:0.149139,(MG600106_Pemapivirus_achisotu:0.105917,MG600108_Pemapivirus_brohepotu:0.119038)[&label="100/100"]:0.324208)[&label="41.2/87"]:0.100963,((MG600083_Tropivirus_betero:0.206453,MG600091_Tropivirus_awaski:0.276725)[&label="100/100"]:0.296147,MG600089_Hemipivirus_aholtge:0.765741)[&label="95.4/97"]:0.131599)[&label="98.6/96"]:0.12911)[&label="98.9/84"]:0.132068,(MG600076_Symapivirus_atriliza:0.586738,MH368041_Danipivirus_abrafi:0.881357)[&label="90.2/90"]:0.169282)[&label="81.4/96"]:0.053988,((KJ415177_Rafivirus_atorti:0.175865,MG600090_Rafivirus_begecki:0.16743)[&label="64.6/99"]:0.091842,MG967619_Rafivirus_crhima:0.27135)[&label="100/100"]:0.41405)[&label="92.3/98"]:0.056404,(GU182408_Oscivirus_ahokorobi:0.271524,KX463670_Livupivirus_asmonewi:0.450136)[&label="99.2/100"]:0.172191)[&label="96.7/95"]:0.06766,(MF358731_Ludopivirus_agrewhifrogo:0.449068,((((((NP_92_swabrectal:0.0,NP_166_swabrectal:0.0):0.0,NP_168_swabrectal:0.0):0.0,NP_167_swabrectal:0.0):0.0,NP_94_swabrectal:0.0):1.0E-6,NP_93_swabrectal:1.0E-6)[&label="0/75"]:2.0E-6,NP_95_swabrectal:3.0E-6)[&label="100/100"]:0.385248)[&label="29.7/77"]:0.069894)[&label="91.9/94"]:0.045288,((((GU182406_Passerivirus_ahokothi:0.072891,MF977321_Passerivirus_bewaxi:0.099183)[&label="100/100"]:0.180135,KF741227_Sicinivirus_ahiberni:0.329663)[&label="50.5/95"]:0.058724,JQ691613_Gallivirus_afowli:0.342792)[&label="90.7/99"]:0.053284,MH255796_Pygoscepivirus_apingu:0.350343)[&label="99.2/100"]:0.097826)[&label="50.5/90"]:0.052203,KF387721_Sakobuvirus_aportufeli:0.410712)[&label="75/81"]:0.063591,(KJ641686_Kobuvirus_femyomini:0.230358,KT325852_Kobuvirus_ecuni:0.240551)[&label="99.5/100"]:0.131165)[&label="91/82"]:0.073828,GQ179640_Salivirus_aklasse:0.674478)[&label="95.6/88"]:0.104347)[&label="87.6/88"]:0.074908,LC055961_Kobuvirus_dekago:0.35499)[&label="99.6/100"]:0.108556);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName=".AppleSystemUIFont";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=287;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName=".AppleSystemUIFont";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName=".AppleSystemUIFont";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
